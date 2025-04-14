@@ -1,28 +1,54 @@
-# macOS
+# ▶ macOS cruft
 .DS_Store
-# .gitignore
-*.exe
-*.ico
-*.pyc
-__pycache__/
-venv/
-dist/
-build/
-# Python
-venv/
+
+# ▶ Python
 __pycache__/
 *.py[cod]
+*.pyo
 
-# Logs and system files
+# ▶ Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# ▶ PyInstaller builds
+build/
+dist/
+*.spec
+
+# ▶ Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ▶ Icons & Binaries
+*.ico
+*.icns
+
+# ▶ Logs, backups, and junk
 *.log
-*.ldb
+*.bak
+*.tmp
+*.swp
+*.swo
+*.~lock.*
 *.journal
 *.lock
-*.bak
+*.ldb
 
-# Chrome-like userdata (only track what you absolutely must)
+# ▶ IDE/editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# ▶ Chrome/WebDriver user data folders
 user_data/Default/
 user_data/*/Cache/
 user_data/*/IndexedDB/
-
 user_data/optimization_guide_model_store/
+
+# ▶ Git stuff
+.gitattributes
+.gitignore
