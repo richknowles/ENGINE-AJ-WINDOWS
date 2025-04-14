@@ -2,29 +2,47 @@ import os
 import sys
 import time
 import csv
-import tkinter as tk
-from tkinter import filedialog
+import traceback
 from app.aj_driver import get_driver
 
-VERSION = "1.0.2"
+VERSION = "1.0.1"
+
+# Only import messagebox when needed
+def show_gui_error(message):
+    try:
+        import tkinter
+        from tkinter import messagebox
+        root = tkinter.Tk()
+        root.withdraw()
+        messagebox.showerror("ENGINE_AJ Error", message)
+    except Exception:
+        pass  # fail silently if tkinter unavailable
 
 def get_recipients():
-    root = tk.Tk()
-    root.withdraw()
-    print("📂 Please select your recipients.csv file...")
-    csv_path = filedialog.askopenfilename(
-        title="Select recipients.csv file",
-        filetypes=[("CSV files", "*.csv")],
-    )
-    if not csv_path:
-        print("❌ No file selected.")
+    try:
+        # Prompt for CSV file location (GUI file picker)
+        import tkinter as tk
+        from tkinter import filedialog
+        root = tk.Tk()
+        root.withdraw()
+        csv_path = filedialog.askopenfilename(
+            title="Select recipients.csv file",
+            filetypes=[("CSV files", "*.csv")],
+        )
+    except Exception as e:
+        show_gui_error(f"Failed to open file dialog: {e}")
         return []
+
+    if not csv_path or not os.path.exists(csv_path):
+        show_gui_error("No recipients.csv file selected or file not found.")
+        return []
+
     try:
         with open(csv_path, newline='', encoding='utf-8') as csvfile:
             reader = csv.reader(csvfile)
             return [row[0].strip() for row in reader if row]
     except Exception as e:
-        print(f"❌ Failed to read CSV: {e}")
+        show_gui_error(f"Failed to read CSV file:\n{e}")
         return []
 
 def print_intro():
@@ -35,10 +53,10 @@ def print_intro():
 
 def main():
     print_intro()
+
     recipients = get_recipients()
     if not recipients:
-        print("⚠️ No phone numbers loaded. Exiting.")
-        input("Press ENTER to close.")
+        print("⚠️ No phone numbers loaded.")
         return
 
     print(f"📨 Loaded {len(recipients)} recipient(s).")
@@ -50,10 +68,17 @@ def main():
         time.sleep(60)
         print("✅ WhatsApp Web should now be ready.")
         print("📤 Sending messages... (TODO: message sending logic goes here)")
-    except Exception as e:
-        print(f"❌ Error: {e}")
 
-    input("✅ Done. Press ENTER to exit.")
+        # for number in recipients:
+        #     send_whatsapp_message(driver, number, "Hello from ENGINE_AJ!")
+
+    except Exception as e:
+        error_text = f"❌ Unexpected error: {e}\n\n{traceback.format_exc()}"
+        print(error_text)
+        show_gui_error(error_text)
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        show_gui_error(f"Fatal error:\n{e}")
