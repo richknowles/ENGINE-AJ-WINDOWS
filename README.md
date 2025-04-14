@@ -1,33 +1,44 @@
-# ENGINE AJ – WhatsApp Automation for Humans
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=F77300&center=true&vCenter=true&width=1000&lines=ENGINE+AJ+for+Windows;Made+with+REAL+Love+by+Richard+Knowles" alt="Typing SVG" />
+</h1>
 
-![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-GPL--3.0--or--later-lightgrey)
-![Downloads](https://img.shields.io/github/downloads/richknowles/ENGINE-AJ-WINDOWS/total?color=orange)
-
-> Made with **REAL Love** ©2025 Richard Knowles  
-> Automate WhatsApp messaging like a boss. No coding. No bullshit. Just click and boom.
-
----
-
-### **Features**
-
-- Launches WhatsApp Web in undetected Chrome
-- Automatically picks up recipient list from a CSV file
-- Future-proof: messaging logic modular & extendable
-- Cross-platform (Windows build currently supported)
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/richknowles/ENGINE-AJ-WINDOWS?color=%23f7768e&label=version&style=for-the-badge" />
+  <img src="https://img.shields.io/github/downloads/richknowles/ENGINE-AJ-WINDOWS/total?color=%23ffac33&style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/richknowles/ENGINE-AJ-WINDOWS?color=%23a6e3a1&style=for-the-badge" />
+  <img src="https://img.shields.io/github/languages/top/richknowles/ENGINE-AJ-WINDOWS?style=for-the-badge&color=blueviolet" />
+</p>
 
 ---
 
-### **How to Use (Windows)**
+## 🚀 ENGINE AJ for Windows
 
-1. **Download the latest `main.exe`** from the [Releases page](https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases).
-2. Place `main.exe` and `recipients.csv` in the same folder.
-3. Double-click `main.exe`.
-4. Scan QR in WhatsApp Web.
-5. Sit back, smile, and let AJ handle it.
+**ENGINE AJ** is a Python-based WhatsApp automation tool built with ❤️ for real-world communication workflows. Designed for ease of use and extensibility, it's perfect for sending personalized WhatsApp messages at scale using the web version of WhatsApp.
 
 ---
+
+## ⚙️ Features
+
+- No CLI wizardry needed
+- Supports custom CSV recipient lists
+- Simple GUI-free workflow
+- Selenium-based WhatsApp Web automation
+- PyInstaller compiled .EXE
+- Actively maintained and bathed in emotional investment
+
+---
+
+## 📥 Download
+
+**[→ Click here to download the latest release](https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases/latest)**
+
+---
+
+## 🧰 Usage
+
+1. **Run `main.exe`**
+2. **When prompted, select your `recipients.csv` file**
+3. **Scan your WhatsApp QR code in the browser**
 
 ### **CSV Format**
 
