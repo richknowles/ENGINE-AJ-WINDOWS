@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+# .gitignore
+*.exe
+*.ico
+*.pyc
+__pycache__/
+venv/
+dist/
+build/
+# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Logs and system files
+*.log
+*.ldb
+*.journal
+*.lock
+*.bak
+
+# Chrome-like userdata (only track what you absolutely must)
+user_data/Default/
+user_data/*/Cache/
+user_data/*/IndexedDB/
+
+user_data/optimization_guide_model_store/
