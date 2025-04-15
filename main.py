@@ -5,7 +5,7 @@ import csv
 import traceback
 from app.aj_driver import get_driver
 
-VERSION = "1.0.3"
+VERSION = "1.0.4"
 
 def show_gui_error(message):
     """Display a GUI error message using tkinter (fails silently if unavailable)."""
@@ -47,10 +47,10 @@ def get_recipients():
 
 def print_intro():
     """Prints the header and version info."""
-    print("\n❤️ Made With REAL Love ©2025 Richard Knowles")
-    print("🌠 GitHub: https://github.com/richknowles/ENGINE_AJ")
-    print(f"🔖 Version: {VERSION}")
-    print("📄 Licensed under GPL-3.0-or-later — because love shouldn't have NDAs.\n")
+    print("\n©2025 Richard Knowles")
+    print("🌐 GitHub: https://github.com/richknowles/ENGINE_AJ")
+    print(f"🛠️ Version: {VERSION}")
+    print("📜 Licensed exclusively to Rich Knowles\n")
 
 def send_whatsapp_message(driver, number, message):
     """Navigate to WhatsApp Web and send a message to a specific number."""
