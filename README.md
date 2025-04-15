@@ -5,10 +5,9 @@
 <p align="center">
   <img src="https://img.shields.io/github/v/release/richknowles/ENGINE-AJ-WINDOWS?color=%23f7768e&label=version&style=for-the-badge" />
   <img src="https://img.shields.io/github/downloads/richknowles/ENGINE-AJ-WINDOWS/total?color=%23ffac33&style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/richknowles/ENGINE-AJ-WINDOWS?color=%23a6e3a1&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/©2025%20Richard%20Knowles-orange?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/github/languages/top/richknowles/ENGINE-AJ-WINDOWS?style=for-the-badge&color=blueviolet" />
 </p>
-
 ---
 
 ## 🚀 ENGINE AJ v1.0.4 for Windows
