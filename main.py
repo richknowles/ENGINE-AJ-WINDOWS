@@ -1,3 +1,37 @@
+
+import tkinter as tk
+from PIL import Image, ImageTk
+import threading
+
+def show_splash(image_path, duration=3000):
+    splash_root = tk.Tk()
+    splash_root.overrideredirect(True)
+    splash_root.configure(bg='black')
+
+    screen_width = splash_root.winfo_screenwidth()
+    screen_height = splash_root.winfo_screenheight()
+
+    image = Image.open(image_path)
+    image = image.resize((512, 512), Image.Resampling.LANCZOS)
+    splash_img = ImageTk.PhotoImage(image)
+
+    splash_label = tk.Label(splash_root, image=splash_img, bg='black')
+    splash_label.image = splash_img  # Keep reference
+    splash_label.pack()
+
+    x = (screen_width // 2) - (512 // 2)
+    y = (screen_height // 2) - (512 // 2)
+    splash_root.geometry(f"+{x}+{y}")
+
+    def close_splash():
+        splash_root.destroy()
+
+    splash_root.after(duration, close_splash)
+    threading.Thread(target=splash_root.mainloop).start()
+
+# Show the splash screen
+show_splash("aj_heart_splash.jpeg")
+
 import os
 import sys
 import time
