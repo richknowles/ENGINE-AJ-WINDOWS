@@ -46,7 +46,7 @@
 > This software was built and shaped through the eyes of someone who tests with both precision and heart:
 >
 > **AJ** — the greatest tester in the world,  
-> and the one this system could not function without.
+> and the one this man could not function without.
 
 ---
 
