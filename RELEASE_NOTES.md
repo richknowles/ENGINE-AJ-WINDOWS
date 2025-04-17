@@ -1,18 +1,24 @@
 
-# ENGINE AJ – Release Notes
+# 🚀 ENGINE-AJ-WINDOWS v1.1.0 Release Notes
 
-## 🚀 Version v1.0.7 – April 2025
+### ✅ Working end-to-end!
+- Replaced outdated XPath with:
+  ```
+//div[@role="textbox" and @contenteditable="true"]
+  ```
+- Verified compatibility with modern WhatsApp Web
+- JS click attempt happens first
+- If JS fails: falls back to real mouse movement
+- If mouse fails: sends RETURN key
+- Confirmed success with real test to single number
 
-### ✨ Enhancements
-- Improved send button logic using visibility + clickability detection
-- Added fallback to RETURN key if click fails
-- More robust diagnostic logging for message delivery
-- Replaced splash JPEG with high-res transparent PNG (`aj_heart_splash.png`)
-- Updated GUI and footer to show version `v1.0.7`
+---
 
-### ❌ Removed
-- Screenshot-on-failure capture (by AJ’s request)
+### 👩‍🔬 This release was:
+- Partially validated by AJ
+- Proven on a live WhatsApp session
+- The most successfull release thus far
 
-### 📦 Included Executables
-- `ENGINE-AJ-WINDOWS_PORTABLE-v1.0.7.exe`
+---
 
+Built with passion, code, coffee, and just a little bit of madness.

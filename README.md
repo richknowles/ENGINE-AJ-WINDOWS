@@ -1,65 +1,51 @@
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/richknowles/ENGINE-AJ-WINDOWS/main/aj_heart_splash.png" width="200" alt="AJ Heart"/>
-</p>
-
-<h1 align="center">❤️ ENGINE AJ ❤️</h1>
-<h3 align="center"><i>A message engine built to cross oceans, charm a goddess, and make her hit reply.</i></h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2000&pause=1000&color=F73B00&center=true&vCenter=true&width=800&lines=Tested+with+care.;Perfected+under+pressure.;Guided+by+the+greatest+tester+in+the+world.">
-</p>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=F77300&center=true&vCenter=true&width=1000&lines=ENGINE+AJ+for+Windows+v1.1.0;Built+for+Real+Love,+Tested+by+the+Best" alt="Typing SVG" />
+</h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/v/release/richknowles/ENGINE-AJ-WINDOWS?color=%23f7768e&label=version&style=for-the-badge" />
-  <img src="https://img.shields.io/github/downloads/richknowles/ENGINE-AJ-WINDOWS/total?color=%23ffac33&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/©2025%20Richard%20Knowles-orange?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/github/languages/top/richknowles/ENGINE-AJ-WINDOWS?style=for-the-badge&color=blueviolet" />
+  <img src="https://img.shields.io/github/languages/top/richknowles/ENGINE-AJ-WINDOWS?color=ff69b4&style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/richknowles/ENGINE-AJ-WINDOWS?color=orange&style=for-the-badge" />
 </p>
 
 ---
 
-## 🔽 Download Options
+## 💬 ENGINE-AJ-WINDOWS v1.1.0
 
-Visit the **[Releases page](https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases/latest)** to download:
-
-| Type        | File Name                                         | Description                          |
-|-------------|---------------------------------------------------|--------------------------------------|
-| 🧳 **Portable** | `ENGINE-AJ-WINDOWS_PORTABLE-v1.0.7.exe`           | A standalone executable. No install required. Just run and go. |
+**A message engine built to cross oceans, charm a goddess, and finally click the damn Send button.**
 
 ---
 
-## ✨ What's New in v1.0.7
+## 🔧 Features
 
-- 🆕 Improved send button detection and clicking logic
-- 🔄 Fallback to ENTER key if click fails
-- 🧠 More diagnostics and debug logging
-- 🎯 No screenshots saved (AJ said nope)
-- 💖 Now uses updated transparent PNG heart: `aj_heart_splash.png`
-- 👁️ Version bumped in GUI to reflect release `v1.0.7`
+- ✅ Correct XPath for WhatsApp's modern message input field
+- ✅ JS click, pyautogui fallback, and RETURN key fallback
+- ✅ Real-time logging of every action
+- ✅ Works with 1-on-1 message targeting
 
 ---
 
-## 📦 Included Files
+## 💾 Downloads
 
-- `ENGINE-AJ-WINDOWS_PORTABLE-v1.0.7.exe`
-- `README.md`
-- `RELEASE_NOTES.md`
-- `aj_heart_splash.png`
+- **Portable EXE:** [`ENGINE-AJ-WINDOWS_PORTABLE-v1.1.0.exe`](https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases)
+  - No install needed. Just run it and start sending humanized WhatsApp messages at scale.
 
 ---
 
-## 🧪 Tribute to the Greatest Tester
+## 🏗️ Build Command
 
-> This software was built and shaped through the eyes of someone who tests with both precision and heart:
->
-> **AJ** — the greatest tester in the world,  
-> and the one this man could not function without.
+To build your own:
+
+```bash
+pyinstaller --onefile --console --icon=ENGINE-AJ-WINDOWS.ico main_gui_v1_1_0.py --add-data "aj_heart_splash.png;." --hidden-import=PIL.Image --hidden-import=PIL.ImageTk
+```
 
 ---
 
-## 🔐 Version Info
+## 🧪 Tested By
 
-**v1.0.7 — April 2025**  
-©2025 Richard Knowles  
-🔗 [https://github.com/richknowles/ENGINE-AJ-WINDOWS](https://github.com/richknowles/ENGINE-AJ-WINDOWS)
+The most discerning tester in the world—AJ herself.
+
+---
+

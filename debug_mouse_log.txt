@@ -1,0 +1,6 @@
+🔧 DEBUG MOUSE SCRIPT STARTED
+📍 Current mouse position: Point(x=599, y=314)
+➡️ Attempting to move to: (300, 300)
+📍 New mouse position: Point(x=300, y=300)
+✅ Mouse moved successfully.
+🔚 DEBUG COMPLETE
