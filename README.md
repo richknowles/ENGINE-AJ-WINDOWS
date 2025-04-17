@@ -1,19 +1,43 @@
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=F77300&center=true&vCenter=true&width=1000&lines=ENGINE+AJ+for+Windows+v1.1.0;Built+for+Real+Love,+Tested+by+the+Best" alt="Typing SVG" />
-</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=F77300&center=true&vCenter=true&width=1000&lines=ENGINE+AJ+for+Windows+v1.1.0;Clear+Fallbacks+and+Clean+Delivery." alt="Typing SVG" />
+</p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/richknowles/ENGINE-AJ-WINDOWS?color=%23f7768e&label=version&style=for-the-badge" />
-  <img src="https://img.shields.io/github/languages/top/richknowles/ENGINE-AJ-WINDOWS?color=ff69b4&style=for-the-badge" />
-  <img src="https://img.shields.io/github/last-commit/richknowles/ENGINE-AJ-WINDOWS?color=orange&style=for-the-badge" />
+  <a href="https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases">
+    <img src="https://img.shields.io/github/v/release/richknowles/ENGINE-AJ-WINDOWS?color=%23f7768e&label=version&style=for-the-badge" />
+  </a>
+  <a href="https://github.com/richknowles/ENGINE-AJ-WINDOWS">
+    <img src="https://img.shields.io/github/languages/top/richknowles/ENGINE-AJ-WINDOWS?color=ff69b4&style=for-the-badge" />
+  </a>
+  <a href="https://github.com/richknowles/ENGINE-AJ-WINDOWS/commits/main">
+    <img src="https://img.shields.io/github/last-commit/richknowles/ENGINE-AJ-WINDOWS?color=orange&style=for-the-badge" />
+  </a>
+  <a href="https://github.com/richknowles/ENGINE-AJ-WINDOWS/issues">
+    <img src="https://img.shields.io/github/issues/richknowles/ENGINE-AJ-WINDOWS?color=blueviolet&style=for-the-badge" />
+  </a>
+  <a href="https://github.com/richknowles/ENGINE-AJ-WINDOWS/stargazers">
+    <img src="https://img.shields.io/github/stars/richknowles/ENGINE-AJ-WINDOWS?style=for-the-badge&color=ffcc00" />
+  </a>
+  <a href="https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases/latest">
+    <img src="https://img.shields.io/github/downloads/richknowles/ENGINE-AJ-WINDOWS/latest/total?style=for-the-badge&color=brightgreen" />
+  </a>
 </p>
+
+<p align="center">
+  <img src="https://github.com/richknowles/ENGINE-AJ-WINDOWS/raw/main/assets/ENGINE-AJ-WINDOWS.png" alt="ENGINE AJ Icon" width="100" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1200&color=FF5F5F&center=true&vCenter=true&width=1000&lines=WhatsApp+automation+done+right.;Made+for+AJ.+Made+by+Richard.;Clear+logs.+Real+clicks.+True+delivery." />
+</p>
+
 
 ---
 
 ## 💬 ENGINE-AJ-WINDOWS v1.1.0
 
-**A message engine built to cross oceans, charm a goddess, and finally click the damn Send button.**
+**A message engine built to cross oceans, charm a goddess, and finally click that pesky Send button.**
 
 ---
 
@@ -45,7 +69,7 @@ pyinstaller --onefile --console --icon=ENGINE-AJ-WINDOWS.ico main_gui_v1_1_0.py 
 
 ## 🧪 Tested By
 
-The most discerning tester in the world—AJ herself.
+Rich
 
 ---
 
