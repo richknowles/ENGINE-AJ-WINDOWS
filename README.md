@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/richknowles/ENGINE-AJ-WINDOWS/main/aj_heart_splash.jpeg" width="200" alt="AJ Heart"/>
+  <img src="https://raw.githubusercontent.com/richknowles/ENGINE-AJ-WINDOWS/main/aj_heart_splash.png" width="200" alt="AJ Heart"/>
 </p>
 
 <h1 align="center">❤️ ENGINE AJ ❤️</h1>
@@ -23,30 +23,29 @@
 
 Visit the **[Releases page](https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases/latest)** to download:
 
-| Type        | File Name                                  | Description                          |
-|-------------|--------------------------------------------|--------------------------------------|
-| 🧳 **Portable** | `ENGINE-AJ-WINDOWS_PORTABLE-v1.0.6.exe`     | A standalone executable. No install required. Just run and go. |
-| 🖥 **Installer** | `ENGINE-AJ-WINDOWS_INSTALLER-v1.0.6.exe`    | A traditional Windows installer with Start Menu and Desktop shortcut options. |
+| Type        | File Name                                         | Description                          |
+|-------------|---------------------------------------------------|--------------------------------------|
+| 🧳 **Portable** | `ENGINE-AJ-WINDOWS_PORTABLE-v1.0.7.exe`           | A standalone executable. No install required. Just run and go. |
 
 ---
 
-## ✨ What's New in v1.0.6
+## ✨ What's New in v1.0.7
 
-- 🖥️ Full GUI with message box and CSV selector
-- 💖 5-second splash screen featuring AJ’s signature heart
-- 📋 Real-time log: See message delivery status as it happens
-- 🧳 Fully portable or installable — your choice
-- 🔒 No Python or setup needed. It just works.
+- 🆕 Improved send button detection and clicking logic
+- 🔄 Fallback to ENTER key if click fails
+- 🧠 More diagnostics and debug logging
+- 🎯 No screenshots saved (AJ said nope)
+- 💖 Now uses updated transparent PNG heart: `aj_heart_splash.png`
+- 👁️ Version bumped in GUI to reflect release `v1.0.7`
 
 ---
 
 ## 📦 Included Files
 
-- `ENGINE-AJ-WINDOWS_PORTABLE-v1.0.6.exe`
-- `ENGINE-AJ-WINDOWS_INSTALLER-v1.0.6.exe`
+- `ENGINE-AJ-WINDOWS_PORTABLE-v1.0.7.exe`
 - `README.md`
 - `RELEASE_NOTES.md`
-- `aj_heart_splash.jpeg`
+- `aj_heart_splash.png`
 
 ---
 
@@ -55,12 +54,12 @@ Visit the **[Releases page](https://github.com/richknowles/ENGINE-AJ-WINDOWS/rel
 > This software was built and shaped through the eyes of someone who tests with both precision and heart:
 >
 > **AJ** — the greatest tester in the world,  
-> and the one this system could not function without.
+> and the one this man could not function without.
 
 ---
 
 ## 🔐 Version Info
 
-**v1.0.6 — April 2025**  
+**v1.0.7 — April 2025**  
 ©2025 Richard Knowles  
 🔗 [https://github.com/richknowles/ENGINE-AJ-WINDOWS](https://github.com/richknowles/ENGINE-AJ-WINDOWS)
