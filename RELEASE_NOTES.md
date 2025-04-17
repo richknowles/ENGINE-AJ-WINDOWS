@@ -15,9 +15,4 @@
 
 ### 📦 Included Executables
 - `ENGINE-AJ-WINDOWS_PORTABLE-v1.0.7.exe`
-- `ENGINE-AJ-WINDOWS_INSTALLER-v1.0.7.exe`
-- `ENGINE-AJ-WINDOWS_v1.0.7_x64_GUI_SPLASH.exe`
 
----
-
-Tested and overseen by the sharpest eyes in the Western and Eastern hemispheres combined: **AJ**.
