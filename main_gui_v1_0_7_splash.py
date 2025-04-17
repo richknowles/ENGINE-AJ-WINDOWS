@@ -10,7 +10,7 @@ import sys
 from app.aj_driver import get_driver
 from app.aj_sender import send_message
 
-VERSION = "v1.0.6"
+VERSION = "v1.0.7"
 REPO = "https://github.com/richknowles/ENGINE-AJ-WINDOWS"
 COPYRIGHT = "©2025 Richard Knowles"
 
@@ -25,7 +25,7 @@ def show_splash_then_start_gui():
     screen_width = splash.winfo_screenwidth()
     screen_height = splash.winfo_screenheight()
 
-    image_path = os.path.join(BASE_PATH, "aj_heart_splash.jpeg")
+    image_path = os.path.join(BASE_PATH, "aj_heart_splash.png")
     img = Image.open(image_path).resize((512, 512), Image.Resampling.LANCZOS)
     photo = ImageTk.PhotoImage(img)
 
