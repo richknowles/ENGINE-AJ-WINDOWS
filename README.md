@@ -1,9 +1,5 @@
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=F77300&center=true&vCenter=true&width=1000&lines=ENGINE+AJ+for+Windows+v1.1.0;Clear+Fallbacks+and+Clean+Delivery." alt="Typing SVG" />
-</p>
-
-<p align="center">
   <a href="https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases">
     <img src="https://img.shields.io/github/v/release/richknowles/ENGINE-AJ-WINDOWS?color=%23f7768e&label=version&style=for-the-badge" />
   </a>
@@ -27,19 +23,19 @@
 <p align="center">
   <img src="https://github.com/richknowles/ENGINE-AJ-WINDOWS/raw/main/assets/ENGINE-AJ-WINDOWS.png" alt="ENGINE AJ Icon" width="100" />
 </p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1200&color=FF5F5F&center=true&vCenter=true&width=1000&lines=WhatsApp+automation+done+right.;Made+for+AJ.+Made+by+Richard.;Clear+logs.+Real+clicks.+True+delivery." />
-</p>
-
-
 ---
+---
+---
+
 
 ## 💬 ENGINE-AJ-WINDOWS v1.1.0
 
 **A message engine built to cross oceans, charm a goddess, and finally click that pesky Send button.**
 
 ---
+---
+---
+
 
 ## 🔧 Features
 
@@ -48,12 +44,14 @@
 - ✅ Real-time logging of every action
 - ✅ Works with 1-on-1 message targeting
 
+
 ---
 
 ## 💾 Downloads
 
 - **Portable EXE:** [`ENGINE-AJ-WINDOWS_PORTABLE-v1.1.0.exe`](https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases)
   - No install needed. Just run it and start sending humanized WhatsApp messages at scale.
+
 
 ---
 
@@ -64,6 +62,7 @@ To build your own:
 ```bash
 pyinstaller --onefile --console --icon=ENGINE-AJ-WINDOWS.ico main_gui_v1_1_0.py --add-data "aj_heart_splash.png;." --hidden-import=PIL.Image --hidden-import=PIL.ImageTk
 ```
+
 
 ---
 
