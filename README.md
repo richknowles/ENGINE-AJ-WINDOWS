@@ -27,7 +27,7 @@
 
 
 
-## 💬 ENGINE-AJ-WINDOWS v1.1.1
+## 💬 ENGINE-AJ-WINDOWS v1.1.2
 
 **A message engine built to cross oceans, charm a goddess, and finally click that pesky Send button.**
 
@@ -40,6 +40,7 @@
 - ✅ Correct XPath for WhatsApp's modern message input field
 - ✅ JS click, pyautogui fallback, and RETURN key fallback
 - ✅ Real-time logging of every action
+- ✅ RETURN key is now verified — only logs 'sent' if message is truly gone
 - ✅ Works with 1-on-1 message targeting
 
 
@@ -47,7 +48,7 @@
 
 ## 💾 Downloads
 
-- **Portable EXE:** [`ENGINE-AJ-WINDOWS_PORTABLE-v1.1.1.exe`](https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases)
+- **Portable EXE:** [`ENGINE-AJ-WINDOWS_PORTABLE-v1.1.2.exe`](https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases)
   - No install needed. Just run it and start sending humanized WhatsApp messages at scale.
 
 
