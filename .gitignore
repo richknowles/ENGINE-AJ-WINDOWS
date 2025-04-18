@@ -27,6 +27,9 @@ dist/
 *.ico
 *.icns
 
+# ▶ Screenshots
+debugshots/
+
 # ▶ Logs, backups, and junk
 *.log
 *.bak
