@@ -1,5 +1,3 @@
-<p align="center"><img src="https://github.com/richknowles/ENGINE-AJ-WINDOWS/raw/main/assets/ENGINE-AJ-WINDOWS.png" width="100" /></p>
-
 
 <p align="center">
   <a href="https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases">
@@ -26,17 +24,15 @@
   <img src="https://github.com/richknowles/ENGINE-AJ-WINDOWS/raw/main/assets/ENGINE-AJ-WINDOWS.png" alt="ENGINE AJ Icon" width="100" />
 </p>
 ---
----
----
 
 
-## 💬 ENGINE-AJ-WINDOWS v1.1.0
+
+## 💬 ENGINE-AJ-WINDOWS v1.1.1
 
 **A message engine built to cross oceans, charm a goddess, and finally click that pesky Send button.**
 
 ---
----
----
+
 
 
 ## 🔧 Features
@@ -51,7 +47,7 @@
 
 ## 💾 Downloads
 
-- **Portable EXE:** [`ENGINE-AJ-WINDOWS_PORTABLE-v1.1.0.exe`](https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases)
+- **Portable EXE:** [`ENGINE-AJ-WINDOWS_PORTABLE-v1.1.1.exe`](https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases)
   - No install needed. Just run it and start sending humanized WhatsApp messages at scale.
 
 
