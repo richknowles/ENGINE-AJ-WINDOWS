@@ -1,3 +1,5 @@
+<p align="center"><img src="https://github.com/richknowles/ENGINE-AJ-WINDOWS/raw/main/assets/ENGINE-AJ-WINDOWS.png" width="100" /></p>
+
 
 <p align="center">
   <a href="https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases">
