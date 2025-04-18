@@ -16,11 +16,5 @@
 
 ---
 
-### 👩‍🔬 This release was:
-- Partially validated by AJ
-- Proven on a live WhatsApp session
-- The most successfull release thus far
-
----
 
 Built with passion, code, coffee, and just a little bit of madness.
