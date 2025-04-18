@@ -1,5 +1,3 @@
-<p align="center"><img src="https://github.com/richknowles/ENGINE-AJ-WINDOWS/raw/main/assets/ENGINE-AJ-WINDOWS.png" width="100" /></p>
-
 
 <p align="center">
   <a href="https://github.com/richknowles/ENGINE-AJ-WINDOWS/releases">
@@ -29,7 +27,7 @@
 
 
 
-## 💬 ENGINE-AJ-WINDOWS v1.1.12
+## 💬 ENGINE-AJ-WINDOWS v1.1.1
 
 **A message engine built to cross oceans, charm a goddess, and finally click that pesky Send button.**
 
